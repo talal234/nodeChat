@@ -1,0 +1,11 @@
+{
+    "name": "nodeChatApp",
+    "version": "0.0.1",
+    "description": "Chat Program for internal network collaboration via Chat",
+    "dependencies": {
+        "socket.io": "latest",
+        "express": "latest",
+        "jade": "latest"
+    },
+    "author": "TB"
+}
