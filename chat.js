@@ -1,7 +1,7 @@
 window.onload = function() {
  
     var messages = [];
-    var socket = io.connect('http://localhost:3500');
+    var socket = io.connect('http://localhost:3700');
     var field = document.getElementById("message-box");
     var sendButton = document.getElementById("send-message-btn");
     var content = document.getElementById("content");
@@ -28,6 +28,7 @@ window.onload = function() {
             var text = field.value;
             socket.emit('send', { message: text, username: name.value });
             field.value = "";
+            $("#name").hide(); 
         }
     };
 
