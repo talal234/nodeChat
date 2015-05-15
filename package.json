@@ -4,8 +4,7 @@
     "description": "Chat Program for internal network collaboration via Chat",
     "dependencies": {
         "socket.io": "latest",
-        "express": "latest",
-        "jade": "latest"
+        "express": "latest"
     },
     "author": "TB"
 }
